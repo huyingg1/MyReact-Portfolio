@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/huyingg1/MyReact-Portfolio/static/css/main.c2cab247.css",
+    "main.js": "/huyingg1/MyReact-Portfolio/static/js/main.cb023acb.js",
+    "index.html": "/huyingg1/MyReact-Portfolio/index.html",
+    "main.c2cab247.css.map": "/huyingg1/MyReact-Portfolio/static/css/main.c2cab247.css.map",
+    "main.cb023acb.js.map": "/huyingg1/MyReact-Portfolio/static/js/main.cb023acb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2cab247.css",
+    "static/js/main.cb023acb.js"
+  ]
+}
