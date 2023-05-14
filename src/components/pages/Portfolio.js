@@ -45,7 +45,9 @@ export default function Portfolio() {
             </div>
             <a href="https://utgroup7.github.io/workout-buddy">
               <img
-                src="/Workout-Application-screenshot.png"
+                src={
+                  process.env.PUBLIC_URL + "/Workout-Application-screenshot.png"
+                }
                 alt="Workout-Application"
                 style={styles.img}
               />
@@ -63,7 +65,7 @@ export default function Portfolio() {
             <a href="https://revved-up-reviews.herokuapp.com/">
               <p>
                 <img
-                  src="/CarReview-blog.png"
+                  src={process.env.PUBLIC_URL + "/CarReview-blog.png"}
                   alt="carreview-blog"
                   style={styles.img}
                 />
@@ -80,7 +82,11 @@ export default function Portfolio() {
               </a>
             </div>
             <p>
-              <img src="/Calculator.jpg" alt="calculator" style={styles.img} />
+              <img
+                src={process.env.PUBLIC_URL + "/Calculator.jpg"}
+                alt="calculator"
+                style={styles.img}
+              />
             </p>
           </figure>
         </div>
@@ -94,7 +100,7 @@ export default function Portfolio() {
             </div>
             <p>
               <img
-                src="/Pastel-Puzzels.jpg"
+                src={process.env.PUBLIC_URL + "/Pastel-Puzzels.jpg"}
                 alt="pastel-puzzels"
                 style={styles.img}
               />
@@ -110,7 +116,11 @@ export default function Portfolio() {
               </a>
             </div>
             <p>
-              <img src="/Run-Buddy.jpg" alt="run-buddy" style={styles.img} />
+              <img
+                src={process.env.PUBLIC_URL + "/Run-Buddy.jpg"}
+                alt="run-buddy"
+                style={styles.img}
+              />
             </p>
           </figure>
         </div>

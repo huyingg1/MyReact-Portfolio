@@ -52,14 +52,14 @@ export default function PortfolioContainer() {
       {/* We are passing the currentPage from state and the function to update it */}
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       <img
-        src="/Nav-background.jpg"
+        src={process.env.PUBLIC_URL + "/Nav-background.jpg"}
         alt="banner"
         style={bannerStyle.banner}
       ></img>
       {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
       <img
-        src="/Nav-background.jpg"
+        src={process.env.PUBLIC_URL + "/Nav-background.jpg"}
         alt="banner"
         style={bannerStyle.bannerlow}
       ></img>

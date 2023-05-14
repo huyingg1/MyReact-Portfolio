@@ -39,7 +39,11 @@ export default function AboutMe() {
         priorities with a positive attitude. Willingness to take on added
         responsibilities to meet team goals.
       </p>
-      <img style={styles.image} src="/selfphoto.png" alt="selfphoto" />
+      <img
+        style={styles.image}
+        src={process.env.PUBLIC_URL + "/selfphoto.png"}
+        alt="selfphoto"
+      />
     </div>
   );
 }
