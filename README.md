@@ -33,7 +33,7 @@ Contribution guideline
 
 ## Tests
 
-test
+The application is deployed in GitHub: [Application link](https://huyingg1.github.io/MyReact-Portfolio/)
 
 ## Questions
 
