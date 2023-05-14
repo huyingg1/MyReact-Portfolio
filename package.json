@@ -2,7 +2,6 @@
   "name": "challenge-20",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/huyingg1/MyReact-Portfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^11.1.0",

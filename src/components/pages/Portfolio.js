@@ -36,9 +36,9 @@ export default function Portfolio() {
       <h1 style={styles.title}>My Applications:</h1>
       <div style={styles.portfolioContainer}>
         <div style={styles.portfolioItem}>
-          <figure class="shadow">
-            <div class="appname">
-              <p class="name">Workout Application</p>
+          <figure>
+            <div>
+              <p>Workout Application</p>
               <a href="https://github.com/utgroup7/workout-buddy">
                 GitHub Repository: Your Personal Workout Pal!
               </a>
@@ -53,9 +53,9 @@ export default function Portfolio() {
           </figure>
         </div>
         <div style={styles.portfolioItem}>
-          <figure class="shadow">
-            <div class="appname">
-              <p class="name">CarReview blog</p>
+          <figure>
+            <div>
+              <p>CarReview blog</p>
               <a href="https://github.com/group4project22023/Revved_up_Reviews">
                 GitHub Repository: Revved Up Reviews
               </a>
@@ -72,9 +72,9 @@ export default function Portfolio() {
           </figure>
         </div>
         <div style={styles.portfolioItem}>
-          <figure class="shadow">
-            <div class="appname">
-              <p class="name">Calculator</p>
+          <figure>
+            <div>
+              <p>Calculator</p>
               <a href="https://github.com/huyingg1">
                 GitHub Repository: React/JavaScript/CSS
               </a>
@@ -85,8 +85,8 @@ export default function Portfolio() {
           </figure>
         </div>
         <div style={styles.portfolioItem}>
-          <figure class="shadow">
-            <div class="appname">
+          <figure>
+            <div>
               <p href="https://github.com/huyingg1">Pastel Puzzels</p>
               <a href="https://github.com/huyingg1">
                 GitHub Repository: MERN Stack
@@ -102,9 +102,9 @@ export default function Portfolio() {
           </figure>
         </div>
         <div style={styles.portfolioItem}>
-          <figure class="shadow">
-            <div class="appname">
-              <p class="name">Run Buddy</p>
+          <figure>
+            <div>
+              <p>Run Buddy</p>
               <a href="https://github.com/huyingg1">
                 GitHub Repository: HTML/CSS
               </a>
