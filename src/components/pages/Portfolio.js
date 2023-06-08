@@ -76,18 +76,20 @@ export default function Portfolio() {
         <div style={styles.portfolioItem}>
           <figure>
             <div>
-              <p>Calculator</p>
-              <a href="https://github.com/huyingg1">
-                GitHub Repository: React/JavaScript/CSS
+              <p>Wise Guide</p>
+              <a href="https://github.com/JABOWG/wise-guide">
+                GitHub Repository: JABOWG
               </a>
             </div>
-            <p>
-              <img
-                src={process.env.PUBLIC_URL + "/Calculator.jpg"}
-                alt="calculator"
-                style={styles.img}
-              />
-            </p>
+            <a href="https://mighty-island-49010.herokuapp.com/">
+              <p>
+                <img
+                  src={process.env.PUBLIC_URL + "/WiseGuide-screenshot1.png"}
+                  alt="Wise-Guide"
+                  style={styles.img}
+                />
+              </p>
+            </a>
           </figure>
         </div>
         <div style={styles.portfolioItem}>
